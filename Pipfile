@@ -6,6 +6,22 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
+boto3 = "*"
+botocore = "*"
+colorama = "*"
+docutils = "*"
+gunicorn = "*"
+jmespath = "*"
+pyasn1 = "*"
+python-dateutil = "*"
+pytz = "*"
+rsa = "*"
+s3transfer = "*"
+six = "*"
+sqlparse = "*"
+urllib3 = "*"
+Django = "*"
+PyYAML = "*"
 
 [requires]
 python_version = "3.6"

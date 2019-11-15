@@ -1,0 +1,1 @@
+web: sh -c 'cd rfid_ui && gunicorn rfid_ui.wsgi'
