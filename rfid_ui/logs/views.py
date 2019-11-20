@@ -30,7 +30,7 @@ def process_scan_results(item):
 		ExpressionAttributeNames = {
 			'#name': 'name'
 		}
-	)['Items'][0]
+	)['Items'][0]['name']
 
 	# Get machine's name from id
 	machines_table = dynamodb.Table(MACHINES_TABLE_NAME)
@@ -44,7 +44,7 @@ def process_scan_results(item):
 		ExpressionAttributeNames = {
 			'#name': 'name'
 		}
-	)['Items'][0]
+	)['Items'][0]['name']
 
 	# check if activity has not finished
 	if 'end_timestamp' in item:
