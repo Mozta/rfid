@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Idit machine logs</title>
+</head>
+
+<body>
+	<h1>logs</h1>
+	<h2>Last 20 logs</h2>
+	<table>
+		<tr>
+			<th>Máquina</th>
+			<th>Usuario</th>
+			<th>Tiempo Inicial</th>
+			<th>Tiempo Final</th>
+		</tr>
+
+		{% for log in logs%}
+			<tr>
+				<td>{{ log.machine }}</td>
+				<td>{{ log.user }}</td>
+				<td>{{ log.start }}</td>
+				<td>{{ log.end }}</td>
+			</tr>
+		{% endfor %}
+
+	</table>
+</body>
+
+</html>
