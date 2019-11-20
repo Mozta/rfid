@@ -25,7 +25,7 @@ SECRET_KEY = '=p-y)k6ila4nqi*=hyn#o#tm--)u#jeo90!e4ixjidwvtdw*!q'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['crud-rfid-test.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['rfid-crud-testing.herokuapp.com', 'localhost']
 
 
 # Application definition
