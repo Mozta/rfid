@@ -29,4 +29,5 @@ Also, in order to not reveal the names of the dynamoDB tables used, l also set t
 ```bash
 USERS_TABLE_NAME=[your-users-table]
 MACHINES_TABLE_NAME=[your-machines-table]
+LOGS_TABLE_NAME=[your-logs-table]
 ```
